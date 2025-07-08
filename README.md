@@ -49,7 +49,6 @@ Este repositorio contiene el código, scripts y recursos utilizados en el Trabaj
 - **Técnicas:** prompting (zero-shot, few-shot, CoT), fine-tuning supervisado, BoW, TF-IDF, PCA, clustering
 
 ---
-<<<<<<< HEAD
 
 # Instalación
 
