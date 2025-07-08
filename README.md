@@ -25,39 +25,15 @@ Este repositorio contiene el código, scripts y recursos utilizados en el Trabaj
 
 ## Estructura del Repositorio
 
-TFG/
-├── Clasificar_Polaridad/
-│ ├── Spain_test_2020.xlsx
-│ ├── Spain_train_set_2019.xlsx
-│ ├── Generalistas/
-│ │ ├── Clasificar_gemma2-9b-it.ipynb
-│ │ ├── Clasificar_llama-3.1-8b-instant.ipynb
-│ │ ├── Clasificar_llama-3.3-70b-versatile.ipynb
-│ │ └── fine-tuning/
-│ │ ├── Clasificación_GPT-4o-mini_Fine-tuning.xlsx
-│ │ ├── Extraer_GPT-4o-mini&FineTuning.ipynb
-│ │ ├── entrenamiento/ (datasets .jsonl y scripts de preparación)
-│ │ ├── batch input/ (prompts .jsonl)
-│ │ └── batch output/ (resultados de OpenAI API)
-│ ├── GPT-4o-mini/
-│ │ ├── Extraer_GPT-4o-mini.ipynb
-│ │ ├── batch input/
-│ │ └── batch output/
-│ └── Robertuito/
-│ └── Clasificar_Robertuito.ipynb
-│
-├── DataSets/
-│ ├── 2019/ (XML original y scripts de parsing)
-│ └── 2020/ (TSV + procesamiento)
-│
-├── Resultados/
-│ ├── analisis fine-tuning/
-│ │ ├── graficas-comparativas.ipynb
-│ │ └── datos/
-│ └── analisis prompts/
-│ ├── notebooks de análisis
-│ ├── Análisis de razonamiento/
-│ └── datos/
+- `Clasificar_Polaridad/`: scripts y notebooks para ejecutar los modelos y clasificar los datasets.
+  - `Generalistas/`: notebooks para GPT-4o, LLaMA, Gemma.
+    - `fine-tuning/`: scripts, datos y resultados del fine-tuning sobre GPT-4o-mini.
+  - `GPT-4o-mini/`: notebooks y prompts para evaluar con distintos esquemas de prompting.
+  - `Robertuito/`: notebook de evaluación con el modelo especializado RoBERTuito.
+- `DataSets/`: datasets originales InterTASS 2019 y 2020 y scripts de procesamiento.
+- `Resultados/`: notebooks de análisis y visualización.
+  - `analisis fine-tuning/`: métricas y comparativas tras fine-tuning.
+  - `analisis prompts/`: análisis de prompting y razonamiento CoT.
 
 ---
 
