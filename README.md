@@ -61,6 +61,25 @@ cd TFG
 pip install -r requirements.txt
 ```
 
+---
+
+# Uso
+
+1. Clasificación vía APIs (OpenAI / Groq)
+    - Ejecuta notebooks en Clasificar_Polaridad/Generalistas/ o GPT-4o-mini/.
+2. Evaluación con RoBERTuito (modelo especializado)
+    - Notebook disponible en: Clasificar_Polaridad/Robertuito/Clasificar_Robertuito.ipynb
+3. Extraer resultados y preparar métricas
+    - Usa los notebooks Extraer_*.ipynb para convertir salidas JSONL en Excel analizables.
+4. Fine-tuning
+    - Utiliza los scripts de fine-tuning/entrenamiento/ y datasets .jsonl preparados con Fine-Tuning_Dataset*.py.
+5. Análisis y visualización
+    - Todos los notebooks de evaluación están en Resultados/analisis*.
+
+
+
+
+
 
 
 
