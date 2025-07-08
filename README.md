@@ -39,7 +39,7 @@ Este repositorio contiene el código, scripts y recursos utilizados en el Trabaj
 
 ## Tecnologías y Herramientas
 
-- **Lenguaje:** Python
+- **Lenguaje:** Python 3.13.1 y 3.11.7 (spacyenv)
 - **Librerías:** pandas, scikit-learn, matplotlib, seaborn, spaCy, transformers, openai, pysentimiento
 - **APIs**: [OpenAI](https://platform.openai.com/), [Groq](https://console.groq.com/)
 - **Modelos evaluados:**
