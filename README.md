@@ -72,6 +72,20 @@ TFG/
 - **Entornos**: Jupyter Notebook
 - **Técnicas:** prompting (zero-shot, few-shot, CoT), fine-tuning supervisado, BoW, TF-IDF, PCA, clustering
 
+---
+
+# Instalación
+
+```bash
+# Clonar repositorio
+git clone https://github.com/Alexmarfer02/TFG.git
+cd TFG
+
+#Instalar dependencias
+pip install -r requirements.txt
+```
+
+
 
 
 
